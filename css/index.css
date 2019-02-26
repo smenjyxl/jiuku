@@ -1,0 +1,108 @@
+/*
+* @Author: yanxiaoli
+* @Date:   2019-02-22 11:25:19
+* @Last Modified by:   yanxiaoli
+* @Last Modified time: 2019-02-25 13:35:55
+*/
+article, aside, blockquote, body, button, dd, details, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, input, legend, li, menu, nav, ol, p, section, td, textarea, th, ul {margin: 0;padding: 0}
+body {font-family: PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, Helvetica Neue, Arial, sans-serif;font-size: 12px;line-height: 1.5;color: #222;background-color: #fff;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale}
+a{ color:#222; text-decoration:none;}
+a:hover{color:#ED4040;}
+ul,li,ol{ list-style:none;}
+em,i{font-style: normal;}
+img{border:0;transition: all .5s ease-out .1s;}
+a:hover img{transition: all .3s ease-out .1s;transform: matrix(1.05, 0, 0, 1.05, 0, 0);-webkit-backface-visibility: hidden;backface-visibility: hidden;}
+.fl{ float:left;}
+.fr{ float:right;}
+:after,:before{box-sizing: border-box;}
+.clearfix:after { content: ""; visibility: hidden; display: block; height: 0; clear: both; }
+.clearfix { clear: both; }
+* html .clearfix { zoom: 1; }
+.hidden{display: none;}
+.w_1200{width: 1206px;margin: 0 auto;}
+h2,h3{font-weight: normal;}
+.jlTop{position: relative;}
+/*banner*/
+.fixed{background:#65CEFD;position: fixed;top:0;z-index: 2;}
+.banner{width: 100%;height:600px;
+  background: -webkit-linear-gradient(164deg, #0074CA 0%, #10A7F1 43%, #21C9E8 70%, #45FCE3 100%); 
+  background: -o-linear-gradient(164deg, #0074CA 0%, #10A7F1 43%, #21C9E8 70%, #45FCE3 100%); 
+  background: -moz-linear-gradient(164deg, #0074CA 0%, #10A7F1 43%, #21C9E8 70%, #45FCE3 100%);
+  background: linear-gradient(164deg, #0074CA 0%, #10A7F1 43%, #21C9E8 70%, #45FCE3 100%);
+  background:#0074CA\9;?;
+}
+.navTop{width:100%;height: 88px;}
+.logo{margin:21px 167px 0 0;}
+.menu{font-size: 14px;color:#fff;overflow: hidden;float: left;}
+.menu ul{margin-top:34px;overflow: hidden;}
+.menu li{float: left;margin-right:60px;padding-bottom: 6px;cursor:pointer;}
+#loutinav li.active{border-bottom:#fff 2px solid;}
+.tel{margin-top:30px;height:30px;line-height: 30px;color:#fff;font-size: 14px;margin-left:79px;}
+.tel i{width:27px;height:27px;display:inline-block;vertical-align: middle;margin-right:14px;}
+.bannerTxt .w_1200{position: relative;}
+.bannerTxt .t_1{color:#fff;position: absolute;left:0;top:111px;}
+.bannerTxt .t_1 h2{font-size: 40px;margin-bottom: 14px;}
+.bannerTxt .t_1 p{font-size: 16px;}
+.bannerTxt .t_1 .bannerBtn{width: 200px;height: 60px;line-height: 60px;background: #43C2FB;text-align: center;
+border-radius: 30px;font-size: 20px;margin-top:60px;}
+.bannerTxt .t_1 .bannerBtn a{color:#fff;}
+.bannerTxt .c_1{position: absolute;right:0;top:40px;}
+/*title*/
+.jkTit{text-align: center;padding-top:50px;margin-top:12px;}
+.jkTit h2{font-size: 26px;color:#222;margin-bottom: 12px;}
+.jkTit p{font-size: 14px;color:#888;}
+/*software*/
+.use_1 img{display: block;}
+.software{background:#F4F7FE url(../images/1.png) no-repeat 0 100px;height:573px;overflow: hidden;}
+.softCon{margin:64px auto 140px;}
+.softCon .use_1{position: relative;text-align: center;}
+.softCon .use_1 em{width: 40px;height: 2px;background: #0088F8;display: block;position: absolute;left:50%;margin-left:-20px;top:-1px;}
+.softCon .use_1 img{margin:72px auto 27px;}
+.softCon .use_1 h3{font-size: 20px;margin-bottom: 8px;}
+.softCon .use_1 p{font-size: 14px;color:#888;padding:0 30px;}
+.softCon .use_1:last-child p{padding:0 23px;}
+/*easy use*/
+.easyUse{height:729px;background:#fff url(../images/2.png) no-repeat 0 415px;}
+.useCon{width: 1100px;height:456px;margin:79px auto 80px;border-radius: 10px;
+  background: -webkit-linear-gradient(#65CEFD, #34BDFB); 
+  background: -o-linear-gradient(#65CEFD, #34BDFB); 
+  background: -moz-linear-gradient(#65CEFD, #34BDFB);
+  background: linear-gradient(#65CEFD, #34BDFB);
+}
+.useCon .w_1200{padding-top:86px;margin-left:-50px;}
+.use_1{width:284px;height: 300px;border-radius: 8px;background: #fff;border: 1px solid #E7E7E7;box-shadow: 0 2px 4px 3px rgba(0,136,248,0.10);float:left;margin-right:20px;}
+.use_1:last-child{margin-right:0;}
+.useCon .use_1 img{margin:58px auto 50px;}
+.btn{width: 140px;height: 40px;line-height:40px;background: #43C2FB;border-radius: 30px;margin:26px auto;text-align: center;color:#fff;font-size:18px;}
+.useCon .use_1 p{font-size: 14px;color:#222;padding:0 25px;}
+/*blueLight*/
+.blueLight{overflow: hidden;background:#F4F7FE url(../images/3.png) no-repeat 0 300px;}
+.imgCon{width: 1030px;height: 310px;margin:54px auto 76px;}
+.imgCon img{width: 100%;height: 100%;display: block;}
+/*partner*/
+.partCon{overflow: hidden;margin:100px auto 120px;}
+.partCon ul{width: 1230px;}
+.partCon ul li{float: left;margin-right:30px;margin-bottom: 30px;}
+/*about us*/
+.aboutUS{position: relative;height: 570px;}
+.aboutBg{width: 100%;height:280px;background:#65CEFD;position: absolute;left:0;top:0;}
+.aboutCon{width: 1026px;height:441px;background:#fff;position: absolute;top:55px;left:50%;margin-left:-513px;box-shadow: 0 2px 9px 3px rgba(0,136,248,0.10);}
+.aboutCon .jkTit{margin-top:21px;padding-top:0;}
+.pathCon{overflow: hidden;margin-top:70px;}
+.path{width: 510px;height: 234px;float: left;margin-right:30px;margin-left: 40px;}
+.aboutText{float: left;font-size: 14px;}
+.aboutText ul{margin-bottom: 40px;}
+.aboutText ul li{margin-bottom: 10px;}
+.aboutText span{color:#888;}
+.aboutText span.blue_t{color:#1AB8FF;}
+.aboutText span.grey_t{color:#222;}
+/*footer*/
+.footer{width: 100%;height:200px;background: #454857;}
+.footer .w_1200{overflow: hidden;}
+#output{width: 127px;height:127px;padding:4px;background:#fff;float:left;margin:30px 87px 30px 250px;}
+#output canvas{width: 100%;height:100%;}
+.footerMenu{overflow: hidden;margin:34px 0;}
+.footerMenu ul{margin-left:-20px;}
+.footerMenu ul li{float: left;font-size: 14px;opacity: 0.5;color:#fff;padding:0 20px;cursor: pointer;}
+.f_info{font-size: 30px;color:#fff;}
+.f_copyright{font-size: 14px;color:#fff;opacity: 0.5;margin-top:6px;}
